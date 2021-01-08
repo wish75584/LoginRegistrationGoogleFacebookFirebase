@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerifyPhoneActivity"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+
+    <TextView
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type Down the code you have  received on your phone"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number is sent on your phone will be detected automatically,if did notthen please type out"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:id="@+id/otp_number"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Enter The Code"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="signin"
+        android:padding="20dp"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center" />
+
+
+</LinearLayout>

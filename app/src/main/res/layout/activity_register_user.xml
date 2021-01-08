@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterUser"
+    android:layout_margin="20dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_marginTop="152dp" />
+
+        <EditText
+            android:id="@+id/uFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name "
+            android:padding="15dp"
+            android:inputType="textPersonName"
+            android:textColor="#3E3E3E"
+            android:layout_marginTop="20dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:id="@+id/spinner_countries"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/uMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="15dp"
+                android:hint="Enter your mobile number" />
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/uPasswordOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Password"
+            android:padding="15dp"
+            android:inputType="textPassword"
+            android:textColor="#3E3E3E" />
+
+        <EditText
+            android:id="@+id/uPasswordTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Retype Password"
+            android:padding="15dp"
+            android:textColor="#3E3E3E"
+            android:inputType="textPassword" />
+
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="15dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

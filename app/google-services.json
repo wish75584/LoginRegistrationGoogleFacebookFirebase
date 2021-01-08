@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "971550785655",
+    "firebase_url": "https://fir-test-7a0d0.firebaseio.com",
+    "project_id": "fir-test-7a0d0",
+    "storage_bucket": "fir-test-7a0d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971550785655:android:a58c99a070c7852c128672",
+        "android_client_info": {
+          "package_name": "com.felixtechlabs.firebasegooglefacebookintegration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971550785655-g3ic2e35bevf2qrgggcjcntmg8s3v301.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6OwyC-SY917qJzLVuBFu9Pf_eKDqOaGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971550785655-g3ic2e35bevf2qrgggcjcntmg8s3v301.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971550785655:android:cb0d458ff963be94128672",
+        "android_client_info": {
+          "package_name": "com.felixtechlabs.firebaseloginusinggoogle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971550785655-vh0tl9t21iqf5tf57mia549pfmtc8us9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.felixtechlabs.firebaseloginusinggoogle",
+            "certificate_hash": "d145621b85a70622164353152d03a68ba0b98ffc"
+          }
+        },
+        {
+          "client_id": "971550785655-g3ic2e35bevf2qrgggcjcntmg8s3v301.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6OwyC-SY917qJzLVuBFu9Pf_eKDqOaGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971550785655-g3ic2e35bevf2qrgggcjcntmg8s3v301.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971550785655:android:68b944fe3fbd3a77128672",
+        "android_client_info": {
+          "package_name": "com.felixtechlabs.loginregistrationgooglefacebookfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971550785655-g3ic2e35bevf2qrgggcjcntmg8s3v301.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6OwyC-SY917qJzLVuBFu9Pf_eKDqOaGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971550785655-g3ic2e35bevf2qrgggcjcntmg8s3v301.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
